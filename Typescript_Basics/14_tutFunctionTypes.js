@@ -1,11 +1,11 @@
 "use strict";
 // type of function
 Object.defineProperty(exports, "__esModule", { value: true });
-var x = function myFun(a, b) {
+let x = function myFun(a, b) {
     return a + b;
     ;
 };
-var person;
+let person;
 person = {
     firstname: 'Durgesh',
     lastname: 'Tiwari',
@@ -14,17 +14,17 @@ person = {
     }
 };
 console.log(person.getFullName());
-var play;
+let play;
 play = function (p1, p2) {
-    return "I love ".concat(p1, " and ").concat(p2, " game");
+    return `I love ${p1} and ${p2} game`;
 };
 console.log(play('cricket', 'football'));
-var profile;
+let profile;
 profile = {
     name: "Amar",
     age: 25,
     game: function (p1, p2) {
-        return "I love ".concat(p1, " and ").concat(p2, " game");
+        return `I love ${p1} and ${p2} game`;
     }
 };
 console.log(profile);

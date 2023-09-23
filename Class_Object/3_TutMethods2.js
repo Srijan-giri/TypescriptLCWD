@@ -1,15 +1,15 @@
-var Sum = /** @class */ (function () {
-    function Sum(a, b) {
+"use strict";
+class Sum {
+    constructor(a, b) {
         this.a = a;
         this.b = b;
         console.log("creating object of sum");
     }
-    Sum.prototype.sum = function () {
+    sum() {
         return this.a + this.b;
-    };
-    return Sum;
-}());
-var sum1 = new Sum(12, 34);
+    }
+}
+let sum1 = new Sum(12, 34);
 console.log(sum1.sum());
-var sum2 = new Sum(2, 5);
+let sum2 = new Sum(2, 5);
 console.log(sum2.sum());

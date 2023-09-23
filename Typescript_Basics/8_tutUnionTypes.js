@@ -1,5 +1,6 @@
+"use strict";
 // Store userID
-var userId = "q73jdsuqeejeu";
+let userId = "q73jdsuqeejeu";
 // console.log(userId);
 userId = 14;
 userId = "abahhshs";
@@ -16,5 +17,5 @@ function displayUserId(userId) {
     return userId;
 }
 displayUserId(userId);
-var myArr = ["one", 1, "two", 2, true, null];
+let myArr = ["one", 1, "two", 2, true, null];
 console.log(myArr);

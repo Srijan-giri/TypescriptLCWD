@@ -1,3 +1,4 @@
+"use strict";
 // Enum : Group of named constant values
 // name of days
 // syntax :
@@ -49,7 +50,7 @@ var orderStatus;
     orderStatus[orderStatus["DELIVERED"] = 1] = "DELIVERED";
     orderStatus[orderStatus["DISPATCH"] = 2] = "DISPATCH";
 })(orderStatus || (orderStatus = {}));
-var order;
+let order;
 order = {
     title: "Samsung TV1234",
     price: 33000.86,
